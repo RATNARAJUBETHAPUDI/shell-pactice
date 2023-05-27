@@ -1,0 +1,10 @@
+apiversion: v1
+kind: pod
+metadata:
+  name: my-app-pod
+  lables:
+    app: my-app
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
